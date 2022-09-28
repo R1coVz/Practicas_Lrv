@@ -1,0 +1,25 @@
+#include <iostream>
+
+int add (int x, int y);
+{
+    std :: cout << ¨La respuesta es: << z << \n¨;
+    
+    }
+    
+    int getUserinput()
+    {
+        std :: cout << ¨Ingresaste un numero: ¨;
+        int x{};
+        std :: cin >> x;
+        return --x;
+    }
+    
+    int main ()
+    {
+        int x{ getUserinput() };
+        int y{ getUserinput() };
+        
+        int z { add(x ,y) };
+        prinResult(z);
+        
+        return 0;
